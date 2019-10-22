@@ -1,0 +1,14 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+#reservationsCheckout {
+  position: sticky;
+  float:right;
+  right: 455px;
+  width: 20px;
+  top:300px;
+}
+
