@@ -1,15 +1,42 @@
 
+#proxy {
+  display: grid; 
+  grid-template-columns: 1000px auto;
+  grid-template-rows: 600px auto;
+}
 
-#reservationsCheckout {
-  position: sticky;
-  float:right;
-  right: 455px;
-  width: 20px;
-  top:300px;
+#Reservations {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end:3;
+  position: relative;
+
 }
 #Ratings {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end:2;
+
   padding-left: 100px;
   padding-bottom: 50px;
+}
+
+#photo-gallery {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end:3;
+  /* position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); */
 }
 
 
